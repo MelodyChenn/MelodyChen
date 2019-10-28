@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Information</title>
+<link rel="stylesheet" type="text/css"  href="css/css.css">
+</head>
+<body>
+	<div class="header">
+    	<a href="" class="logo"><img src="images/logo.jpg" /></a>
+      <p>Meituan Food Dilivery</p>
+        <ul>
+        	<li><a href=""><img src="images/icon2.jpg"/>Download for PC</a></li>
+            <li><a href=""><img src="images/icon1.jpg"/>Download for iPhone/Android</a></li>
+            <li><b>MelodyChen's Webpage</b></li>
+        </ul>
+    </div>
+    <div class="nav">
+    	<ul>
+        	<li><a href="index.html">Information</a></li>
+            <li><a href="order.html">Recent orders</a></li>
+            <li><a href="my-list.html">My dishes</a></li>
+        </ul>
+    </div>
+    <div class="cont-1">
+    	<div class="nav-list">
+        	<ul>
+            	<li>Personal information</li>
+                <li>Location</li>
+                <li>Reviews</li>
+            </ul>
+            </div>
+        </div>
+      <div class="cont-box">
+        	<div class="bar">
+            	<ul class="infor">
+                	<li>Username：Melody Chen</li>
+                    <li>Password：melody123456</li>
+                    <li>Phone  number：156xxxxxxxx</li>
+                </ul>
+        </div>
+    </div>
+    <script>
+    	$('.nav-list li').click(function(){
+			var num = $(this).index();
+			$('.cont-box .bar').eq(num).show().siblings().hide();
+		})
+    </script>
+</body>
+</html>

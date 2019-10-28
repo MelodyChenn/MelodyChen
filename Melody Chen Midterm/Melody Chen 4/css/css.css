@@ -1,0 +1,43 @@
+@charset "utf-8";
+*{margin:0; padding:0; list-style:none; }
+body{ background:#fff; font:normal 12px/22px;  }
+img{ border:0;  }
+a{ text-decoration:none; color:#000;  }
+a:hover{ color:red;  }
+.clear { clear:both;}
+.dn { display:none;}
+.w400 { width:400px;}
+
+
+.header { background:#06c1ae; overflow:hidden; height:50px;}
+.header .logo { float:left; margin-top:10px; margin-left:13px;}
+.header p { float:left; color:#fff; font-size:18px; line-height:40px;}
+.header ul { float:right;}
+.header li { float:left; margin-right:15px; line-height:50px; font-size:14px;}
+.header li a { color:#fff;}
+.header li img { margin-right:5px;}
+.nav ul{ overflow:hidden; padding-left:180px;}
+.nav li { float:left; font-size:40px;}
+.nav li a { display:block; padding:0 15px; line-height:80px;}
+.nav li a:hover { background:#000; color:#fff;}
+.nav-list { width:180px; float:left;}
+.nav-list li { cursor:pointer; width:180px; border:1px solid #000; height:137px; text-align:center; line-height:137px; background:#f0f0f0;}
+.infor li { border-bottom:1px dashed #000; line-height:70px; width:250px;}
+.cont-box { float:left; padding:50px;}
+.order-list { width:1200px; margin:0 auto;}
+.order-list img { width:300px; height:192px; display:block;}
+.order-list p { font-size:16px; line-height:24px;}
+.order-list ul { overflow:hidden; padding-top:30px;}
+.order-list li { float:left; margin-bottom:20px; margin-right:40px;}
+.check { overflow:hidden; padding-top:20px;}
+.check span { display:block; width:100px; height:30px; font-size:14px; text-align:center; line-height:30px; background:#f0f0f0; cursor:pointer;}
+.check .change { float:left;display:block; width:100px; height:30px; font-size:14px; text-align:center; line-height:30px; background:#f0f0f0;}
+.check .remove { float:right;}
+.cont-2 { width:1200px; margin:0 auto;}
+.cont-2 li { overflow:hidden; line-height:40px; margin-bottom:20px; font-size:20px;}
+.cont-2 .tit {line-height:40px; margin-bottom:20px; font-size:20px;}
+.cont-2 h2 { line-height:120px;}
+.cont-2 li p{ float:left; width:150px;}
+.cont-2 .inp1 { float:left;line-height:40px; height:40px; width:240px;}
+.cont-2 label input { margin-left:15px;}
+.cont-1 .new { display:block; width:100px; height:40px; line-height:40px; text-align:center; background:#f0f0f0; border:1px solid #000; margin-top:50px; margin-bottom:50px;}
